@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset */
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  /* Colours */
+  --poke-primary: rgb(219, 10, 45);
+  --poke-secondary: rgba(40, 170, 253, 1);
+  --poke-background: rgba(239, 239, 239, 1);
+  --poke-dark: rgba(29, 29, 29, 1);
+  --poke-light: rgba(224, 224, 224, 1);
+  --poke-medium: rgba(102, 102, 102, 1);
+  --poke-white: rgba(255, 255, 255, 1);
+  --poke-wireframe: rgba(184, 184, 184, 1);
+
+}
